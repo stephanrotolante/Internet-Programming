@@ -1,0 +1,114 @@
+div.main_header {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+span.main_header {
+	color: #ffffff;
+	font-size: 250%;
+}
+
+span.body_text {
+	font-size: 150%;
+}
+
+a.in:hover {
+    font-size: 150%;
+}
+
+h2.a {
+color: aqua;
+}
+
+h2.h {
+color: red;
+}
+
+h2.e {
+color: blue;
+} 
+
+.i {
+    font-style: italic;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.cen {
+    text-align: center;
+}
+
+.stripe {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+    background-color: red;
+}
+
+.pl {
+ list-style-type: decimal;
+}
+
+.sl {
+    list-style-type: upper-alpha;
+}
+
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: grey;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: green;
+}
+
+input[type='checkbox']:after {
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: grey;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+input[type='checkbox']:checked:after {
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: blue;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+
+}
+
+.u {
+text-decoration: underline;
+}
