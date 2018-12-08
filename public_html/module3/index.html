@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Statistical Calculator</title>
+
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <h2>
+            Statistical Calculator
+        </h2>
+        <form>
+            
+            <table>
+                    <!-- Max -->
+                    <tr>
+                        <td>
+                            <h3>Max</h3>
+                        </td>
+                        <td>
+                            <input id="Max" readonly>
+                        </td>
+                    </tr>
+                    <!-- Mean -->
+                    <tr>
+                        <td>
+                            <h3>Mean</h3>
+                        </td>
+                        <td>
+                            <input id="Mean" readonly>
+                        </td>
+                    </tr>
+                    <!-- Median -->
+                    <tr>
+                        <td>
+                            <h3>Median</h3>
+                        </td>
+                        <td>
+                            <input id="med" readonly>
+                        </td>
+                    </tr>
+                    <!-- Min -->
+                    <tr>
+                        <td>
+                            <h3>Min</h3>
+                        </td>
+                        <td>
+                            <input id="Min" readonly>
+                        </td>
+                    </tr>
+                    <!-- Mode -->
+                    <tr>
+                        <td>
+                            <h3>Mode</h3>
+                        </td>
+                        <td>
+                            <input id="mode"readonly>
+                        </td>
+                    </tr>
+                    <!-- Standard -->
+                    <tr>
+                        <td>
+                            <h3>Standard Deviation</h3>
+                        </td>
+                        <td>
+                            <input id="Std" readonly>
+                        </td>
+                    </tr>
+                    <!-- Sum -->
+                    <tr>
+                        <td>
+                            <h3>Sum</h3>
+                        </td>
+                        <td>
+                            <input id="Sum" readonly>
+                        </td>
+                    </tr>
+                    <!-- Variance -->
+                    <tr>
+                        <td>
+                            <h3>Variance</h3>
+                        </td>
+                        <td>
+                            <input id="Vari" readonly>
+                        </td>
+                    </tr>
+            </table>
+            <br>
+            Please only enter integers, no negative numbers or special symbols
+            <br>
+            <textarea  id="area" rows="10" cols="20"></textarea> <br>
+        <input type="reset">
+        </form>
+        <button onclick="performStatistics();">Submit</button>
+        
+
+        
+    <hr>
+
+    <a href="../index.html" >ePortfolio</a>
+        
+    </body>
+</html>
